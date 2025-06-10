@@ -7,6 +7,7 @@ return(
         headerStyle:{backgroundColor:'#f4511e',},
         headerTintColor:'#fff',
         headerTitleStyle:{fontWeight:'bold',},}}>
-        <Stack.Screen name="(home)"/>
+        <Stack.Screen name="index"/>
+        <Stack.Screen name="details"/>
     </Stack>);
 }
