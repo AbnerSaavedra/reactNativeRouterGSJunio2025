@@ -5,17 +5,8 @@ export default function HomeScreen (){
     return(
         <View style={styles.container}>
             <Text>Home</Text>
-            <Link href="/details">View details </Link>
-            <Pressable
-                    onPress={() =>
-                    router.navigate({
-                        pathname: '/details',
-                        params: { id: 'bacon' }
-                    })
-                    }
-                >
-                <Text>View user (imperative)</Text>
-            </Pressable>
+            <Link href='/details/1'>View first details</Link>
+            <Link href='/details/2'>View second details</Link>
         </View>
     )
 }
